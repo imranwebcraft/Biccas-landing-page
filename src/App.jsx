@@ -1,9 +1,27 @@
+import {
+	Navbar,
+	Banner,
+	Company,
+	Rating,
+	Feature,
+	Benifit,
+	Plan,
+	Testimonials,
+	Footer,
+} from './components/index';
+
 function App() {
 	return (
 		<>
-			<h1 className="text-3xl font-bold underline font-primary">
-				Hello world!
-			</h1>
+			<Navbar />
+			<Banner />
+			<Company />
+			<Rating />
+			<Feature />
+			<Benifit />
+			<Plan />
+			<Testimonials />
+			<Footer />
 		</>
 	);
 }
