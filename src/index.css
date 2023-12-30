@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+@import '@flaticon/flaticon-uicons/css/all/all';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,6 +9,10 @@
 	scroll-behavior: smooth;
 }
 
-.container {
-	@apply max-w-[1200px] mx-auto;
+.center_container {
+	@apply max-w-[1200px] mx-auto px-[10px] sm:px-[25px] lg:px-[30px];
+}
+
+.link_in_active {
+	@apply text-[18px] text-textBlack font-medium;
 }
