@@ -1,5 +1,4 @@
 import Navbar from './Navbar';
-import Banner from './Banner';
 import Company from './Company';
 import Rating from './Rating';
 import Feature from './Feature';
@@ -10,7 +9,6 @@ import Footer from './Footer';
 
 export {
 	Navbar,
-	Banner,
 	Company,
 	Rating,
 	Feature,

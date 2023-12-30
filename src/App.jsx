@@ -1,6 +1,5 @@
 import {
 	Navbar,
-	Banner,
 	Company,
 	Rating,
 	Feature,
@@ -14,7 +13,6 @@ function App() {
 	return (
 		<>
 			<Navbar />
-			<Banner />
 			<Company />
 			<Rating />
 			<Feature />

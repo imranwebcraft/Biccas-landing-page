@@ -10,9 +10,35 @@
 }
 
 .center_container {
-	@apply max-w-[1200px] mx-auto px-[10px] sm:px-[25px] lg:px-[30px];
+	@apply container mx-auto;
+}
+
+.padding-x {
+	@apply px-[10px] sm:px-[25px] lg:px-[30px];
+}
+
+.padding-y {
+	@apply py-[30px] sm:py-[80px] md:py-[130px];
 }
 
 .link_in_active {
 	@apply text-[18px] text-textBlack font-medium;
+}
+
+.green__gradient {
+	background: linear-gradient(
+		90deg,
+		rgba(84, 190, 150, 1) 0%,
+		rgba(84, 190, 150, 1) 100%
+	);
+	filter: blur(300px);
+}
+
+.pink__gradient {
+	background: radial-gradient(
+		circle,
+		rgba(255, 214, 214, 1) 0%,
+		rgba(255, 214, 214, 1) 100%
+	);
+	filter: blur(300px);
 }
