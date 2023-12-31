@@ -34,7 +34,7 @@ const Feature = () => {
 						</p>
 					</div>
 					<div className=" flex flex-col gap-2 sm:gap-5">
-						<div className=" bg-purple-100/20 rounded-[18px] py-[45px]">
+						<div className=" bg-purple-100/20 rounded-[18px] px-[25px] py-[45px]">
 							<img src={cloud} alt="cloudImage" />
 						</div>
 						<h3 className="text-textBlack2 text-[25px] sm:text-[30px] font-semibold leading-[30px]">
