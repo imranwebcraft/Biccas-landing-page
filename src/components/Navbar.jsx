@@ -63,7 +63,7 @@ const Navbar = () => {
 					<div>
 						<Link
 							to={'/'}
-							className=" text-[50px] text-primary font-semibold leading-[30px]"
+							className=" text-[36px] sm:text-[50px] text-primary font-semibold leading-[30px]"
 						>
 							Biccas
 						</Link>
