@@ -8,7 +8,10 @@ import {
 
 const Company = () => {
 	return (
-		<section className=" relative center_container padding-x padding-y flex flex-col gap-[16px] sm:gap-[45px] md:gap-[60px]">
+		<section
+			id="company"
+			className=" relative center_container padding-x padding-y flex flex-col gap-[16px] sm:gap-[45px] md:gap-[60px]"
+		>
 			<h2 className=" text-textBlack2 text-[25px] sm:text-[30px] md:text-[40px] font-bold text-center">
 				More than 25,000 teams use Collabs
 			</h2>
